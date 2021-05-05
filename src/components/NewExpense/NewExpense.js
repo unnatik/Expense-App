@@ -4,7 +4,7 @@ import "./NewExpense.css";
 const NewExpense = () => {
     return (
         <div>
-            <form>
+            <form className="new-expense">
 
             </form>
         </div>
