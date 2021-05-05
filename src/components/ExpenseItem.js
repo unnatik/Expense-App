@@ -1,16 +1,15 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import "./ExpenseItem.css"
 
-function ExpenseItem(props) {
+function ExpenseItem() {
     return (
-        <div>
-            <h2>Expense Item</h2>
+        <div className="expense-item">
+            <div>Date</div>
+            <div className="expense-item__description">
+                <h2>Car Insurance</h2>
+                <div className="expense-item__price">$240</div>
+            </div>
         </div>
     )
-}
-
-ExpenseItem.propTypes = {
-
 }
 
 export default ExpenseItem
